@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DAJ Cuts - Premium Barbershop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="barb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<link rel="stylesheet" href="barb.css">
 <body>
     <nav id="navbar">
         <div class="logo">DAJ cuts</div>
@@ -18,92 +20,210 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#service">Service</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="booknow.html" class="nav-cta">Book Now</a></li>
         </ul>
     </nav>
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>welcome to DAJ's  Cuts</h1>
-            <p>where style meets excellence</p>
-            <a href="#booking" class="cta-button"> Book Now</a>
+            <h1>WELCOME TO DAJ's CUTS</h1>
+            <p>Welcome to our premier barbering shop, where style meets skills. Our experienced barbers are dedicated to providing you with top-notch service tailored to your unique look.</p>
+            <div class="opt">
+                <a href="booknow.html" class="cta-button">Book Appointment</a>
+                <a href="#service" class="LearnM">Our Services</a>
+            </div>
         </div>
     </section>
 
-    <section id="services" class="services">
-        <h2>our service</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>Classic Haircut</h3>
-                <p>500 cedis</p>
-                <p>Traditional cut with modern styling</p> 
-            </div>
-            <div class="service-card">
-                <h3>Beard Trim</h3>
-                <p>100 cedis</p>
-                <p>professional beard grooming</p>
-            </div>
-            <div class="service-card">
-                <h3>Hot Towel shave</h3>
-                <p>650 cedis</p>
-                <p>Luxurious straight razor shave</p>
-            </div>
-            <div class="service-card">
-                <h3>Kid cut</h3>
-                <p>160 cedis</p>
-                <p>specialised cuts for young gentlemen</p>
+    <a href="#" class="back-to-top" id="backToTop" title="Back to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+        <span class="sr-only">Back to top</span>
+    </a>
+
+    <section id="service" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="section-subtitle">Premium haircuts and grooming services for the modern gentleman</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Classic Haircut</h3>
+                    <p>500 cedis</p>
+                    <p>Traditional cut with modern styling</p>
+                </div>
+                <div class="service-card">
+                    <h3>Beard Trim</h3>
+                    <p>100 cedis</p>
+                    <p>Professional beard grooming</p>
+                </div>
+                <div class="service-card">
+                    <h3>Hot Towel Shave</h3>
+                    <p>650 cedis</p>
+                    <p>Luxurious straight razor shave</p>
+                </div>
+                <div class="service-card">
+                    <h3>Kid Cut</h3>
+                    <p>160 cedis</p>
+                    <p>Specialized cuts for young gentlemen</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="gallery" class="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="Free Photo _ Man at a barbershop salon doing haircut and beard trim.jpg" alt="Haircut 1">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <p class="section-subtitle">Check out our latest styles and haircuts</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="Free Photo _ Man at a barbershop salon doing haircut and beard trim.jpg" alt="Haircut 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="ART VIBE CANVAS (@aicanvasgallery) • Photos et….jpg" alt="Haircut 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="jungkook.jpg" alt="Haircut 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="7a1c3765-7bbe-45c5-9c60-208570385ae7.jpg" alt="Haircut 4">
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="ART VIBE CANVAS (@aicanvasgallery) • Photos et….jpg" alt="Haircut 2">
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonial">
+        <div class="testimonial-container">
+            <div class="testiWhy">
+                <p class="why">Why Choose Our Barber Shop?</p>
+                <p>At our barber shop, you will find skilled barbers dedicated to providing top-notch grooming services. We use only premium products in a calming environment, ensuring you leave feeling refreshed and confident.</p>
             </div>
-            <div class="gallery-item">
-                <img src="jungkook.jpg" alt="Haircut 3">
+            <div class="CustomerRev">
+                <h3>Customer Testimonials</h3>
+                <p>Our clients love the service we provide</p>
             </div>
-            <div class="gallery-item">
-                <img src="7a1c3765-7bbe-45c5-9c60-208570385ae7.jpg" alt="Haircut 4">
+            <div class="Customers">
+                <div class="customer1">
+                    <img src="five star.jpeg" alt="Five Star Rating" class="star">
+                    <p>"The best haircut I have ever had. The attention to detail was amazing!"</p>
+                    <img src="customer.jpeg" alt="Customer" class="customer">
+                    <h5>Hayley<br>CEO, HairCo</h5>
+                </div>
+                <div class="customer2">
+                    <img src="five star.jpeg" alt="Five Star Rating" class="star">
+                    <p>"Professional service and great atmosphere. I'll definitely be back!"</p>
+                    <img src="customer 2.jpeg" alt="Customer" class="customer">
+                    <h5>John Doe<br>Manager, Daj</h5>
+                </div>
+                <div class="customer3">
+                    <img src="five star.jpeg" alt="Five Star Rating" class="star">
+                    <p>"My go-to place for haircuts. The barbers are skilled and friendly."</p>
+                    <img src="customer 3.jpeg" alt="Customer" class="customer">
+                    <h5>Mark Smith<br>Owner, BBv</h5>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Location</h3>
-                <p>Ghana</p>
-                <p> Kumasi</p>
-                <p>AAMUSTED</p>
-                <h3>Hours</h3>
-                <p>Monday - Friday : 9am - 8pm</p>
-                <p>Saturday :9am - 6pm</p>
-                <p>Sunday : closed</p>
-                <h3>Phone</h3>
-                <p>024888579</p>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">Get in touch with us for any inquiries</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Ghana</p>
+                        <p>Kumasi</p>
+                        <p>AAMUSTED</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Working Hours</h3>
+                        <p>Monday-Friday: 9am-8pm</p>
+                        <p>Saturday: 9am - 6pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>024888579</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
             </div>
-            <form id="contactForm" class="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit"> send your Message</button>
-            </form>
         </div>
     </section>
+
     <footer>
-        <p>&copy;2025 DAJ's cuts Barbershop. All rights reseverved.</p>
+        <div class="footer-content">
+            <div class="footer-about">
+                <div class="footer-logo">DAJ cuts</div>
+                <p class="footer-text">Premium barbershop providing top-quality haircuts and grooming services for men of all ages.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon" title="Facebook">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    <a href="#" class="social-icon" title="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    <a href="#" class="social-icon" title="Twitter">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                    <a href="#" class="social-icon" title="YouTube">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#service">Classic Haircut</a></li>
+                    <li><a href="#service">Beard Trim</a></li>
+                    <li><a href="#service">Hot Towel Shave</a></li>
+                    <li><a href="#service">Kid Cut</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 DAJ's Cuts Barbershop. All rights reserved.</p>
+        </div>
     </footer>
 
-
-    <script src="barb.js">
-        
-    </script>
+    <script src="barb.js"></script>
 </body>
 </html>
